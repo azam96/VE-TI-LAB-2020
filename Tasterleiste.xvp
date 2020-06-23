@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=13.0.117.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=13.0.117.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="Panel1">
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.117.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl2" Children="Controls" ControlName="Static Text 2">
+      <Property Name="Name">StaticTextControl2</Property>
+      <Property Name="Size">81, 13</Property>
+      <Property Name="Location">93, 61</Property>
+      <Property Name="Text">3.5 Hazard light</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.117.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" Children="Controls" ControlName="Static Text 1">
+      <Property Name="Name">StaticTextControl1</Property>
+      <Property Name="Size">134, 17</Property>
+      <Property Name="Location">339, 61</Property>
+      <Property Name="Text">3.6 Hazard light</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.LEDControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.117.0, Culture=neutral, PublicKeyToken=null" Name="LEDControl2" ControlName="Hazard light">
+      <Property Name="Name">LEDControl2</Property>
+      <Property Name="Size">111, 111</Property>
+      <Property Name="Location">339, 84</Property>
+      <Property Name="UsedLEDColorOn">DarkOrange</Property>
+      <Property Name="UsedLEDColorOff">Gray</Property>
+      <Property Name="SymbolConfiguration">6;2;OBF_BR218;MASTER;MASTER_Frm1;EF_Actv;1;LIN;;-1;;;;</Property>
+      <Property Name="TabIndex">1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.LEDControl, Vector.CANalyzer.Panels.CommonControls, Version=13.0.117.0, Culture=neutral, PublicKeyToken=null" Name="LEDControl1" ControlName="hazard light 1">
+      <Property Name="Name">LEDControl1</Property>
+      <Property Name="Size">111, 111</Property>
+      <Property Name="Location">93, 84</Property>
+      <Property Name="UsedLEDColorOff">Gray</Property>
+      <Property Name="SymbolConfiguration">6;2;OBF_BR218;OBF;OBF_Frm2;EF_Sw_Psd;1;LIN;;-1;;;;</Property>
+      <Property Name="TabIndex">0</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">580, 270</Property>
+    <Property Name="BackColor">White</Property>
+  </Object>
+</Panel>
